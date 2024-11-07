@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Fiddle Leaf Fig",
+        "cost": 24.99,
+        "description": "The Fiddle Leaf Fig is a popular houseplant known for its large, violin-shaped leaves. It thrives in bright, indirect light and requires moderate watering."
+    },
+    {
+        "name": "Monstera Deliciosa",
+        "cost": 19.99,
+        "description": "Monstera Deliciosa, or the Swiss Cheese Plant, is loved for its unique, perforated leaves. It's a low-maintenance plant that does well in partial shade and moderate watering."
+    },
+    {
+        "name": "Peace Lily",
+        "cost": 14.99,
+        "description": "The Peace Lily is a graceful indoor plant with white blooms. It purifies the air and thrives in low to moderate light, making it perfect for any room."
+    },
+    {
+        "name": "Snake Plant",
+        "cost": 12.99,
+        "description": "Known for its striking, upright leaves, the Snake Plant is a hardy, low-maintenance plant that tolerates low light and infrequent watering."
+    },
+    {
+        "name": "Spider Plant",
+        "cost": 9.99,
+        "description": "The Spider Plant is an easy-to-grow indoor plant that produces small, white flowers. It's adaptable to various lighting conditions and helps purify the air."
+    },
+    {
+        "name": "Aloe Vera",
+        "cost": 8.50,
+        "description": "Aloe Vera is a succulent plant with thick, fleshy leaves that contain soothing gel. It prefers bright light and minimal watering, making it a low-maintenance option."
+    },
+    {
+        "name": "Boston Fern",
+        "cost": 11.50,
+        "description": "The Boston Fern is known for its lush, feathery fronds. It prefers a humid environment and indirect light, ideal for adding greenery to bathrooms or kitchens."
+    },
+    {
+        "name": "ZZ Plant",
+        "cost": 15.99,
+        "description": "The ZZ Plant is a resilient indoor plant with waxy, dark green leaves. It can tolerate low light and requires very little water, making it perfect for beginners."
+    },
+    {
+        "name": "English Ivy",
+        "cost": 7.50,
+        "description": "English Ivy is a versatile plant with small, glossy leaves that can climb or trail. It does well in indirect light and requires regular watering to stay lush."
+    },
+    {
+        "name": "Chinese Money Plant",
+        "cost": 18.50,
+        "description": "The Chinese Money Plant is loved for its round, coin-shaped leaves. It enjoys bright, indirect light and moderate watering, and it’s said to bring good fortune."
+    },
+    {
+        "name": "Pothos",
+        "cost": 10.99,
+        "description": "Pothos is an easy-to-care-for vine with heart-shaped leaves. It adapts well to low light and occasional watering, making it perfect for new plant owners."
+    },
+    {
+        "name": "Calathea",
+        "cost": 21.50,
+        "description": "Calathea plants are known for their vibrant, patterned leaves. They require low to moderate light and high humidity, making them ideal for indoor environments."
+    },
+    {
+        "name": "Philodendron",
+        "cost": 17.99,
+        "description": "Philodendrons are tropical plants with large, green leaves. They are easy to grow, adaptable to low light, and require moderate watering to thrive."
+    },
+    {
+        "name": "Bonsai Tree",
+        "cost": 35.00,
+        "description": "Bonsai Trees are miniature trees that require regular pruning and care. They add a unique, artistic touch to any space and thrive in bright light."
+    },
+    {
+        "name": "Bird of Paradise",
+        "cost": 27.99,
+        "description": "The Bird of Paradise is a striking plant with large, tropical leaves. It requires bright light and occasional watering, adding a bold touch to interiors."
+    },
+    {
+        "name": "Rubber Plant",
+        "cost": 20.50,
+        "description": "The Rubber Plant is known for its large, glossy leaves. It’s low-maintenance, tolerates low light, and prefers moderate watering to thrive."
+    },
+    {
+        "name": "Majesty Palm",
+        "cost": 23.99,
+        "description": "The Majesty Palm has feathery fronds that add an exotic touch to interiors. It requires bright, indirect light and high humidity to flourish."
+    },
+    {
+        "name": "Lucky Bamboo",
+        "cost": 6.50,
+        "description": "Lucky Bamboo is an easy-to-grow plant that can thrive in water. It is said to bring good luck and prefers indirect light and occasional water changes."
+    },
+    {
+        "name": "Lavender",
+        "cost": 7.99,
+        "description": "Lavender is a fragrant herb with purple flowers. It prefers bright light and well-drained soil, making it perfect for sunny spots indoors or outdoors."
+    },
+    {
+        "name": "Mint Plant",
+        "cost": 4.99,
+        "description": "Mint is a refreshing herb that grows quickly and can be used in cooking. It does well in bright light and regular watering, thriving in small pots or gardens."
+    },
+    {
+        "name": "Rosemary",
+        "cost": 5.50,
+        "description": "Rosemary is an aromatic herb with needle-like leaves. It thrives in bright light and well-drained soil, adding flavor to culinary dishes and beauty to any garden."
+    },
+    {
+        "name": "Basil",
+        "cost": 4.50,
+        "description": "Basil is a popular culinary herb with a sweet aroma. It requires bright light and regular watering, perfect for growing in kitchens or small indoor gardens."
+    },
+    {
+        "name": "Orchid",
+        "cost": 16.99,
+        "description": "Orchids are delicate flowers known for their beauty and elegance. They thrive in indirect light and require a specific watering routine to bloom."
+    },
+    {
+        "name": "Cactus Variety",
+        "cost": 3.99,
+        "description": "Cacti are resilient plants that require minimal water and lots of sunlight. They come in various shapes and sizes, perfect for adding a touch of desert charm."
+    },
+    {
+        "name": "Jade Plant",
+        "cost": 9.50,
+        "description": "The Jade Plant is a succulent with thick, round leaves. It is low-maintenance, prefers bright light, and is thought to bring prosperity to its owner."
+    },
+    {
+        "name": "Umbrella Tree",
+        "cost": 13.99,
+        "description": "The Umbrella Tree has lush, green foliage and thrives in bright, indirect light. It’s low-maintenance and adds a tropical vibe to indoor spaces."
+    },
+    {
+        "name": "Dracaena",
+        "cost": 12.50,
+        "description": "Dracaena plants are low-maintenance and come in various shapes and sizes. They tolerate low light and infrequent watering, making them ideal for beginners."
+    },
+    {
+        "name": "Hoya",
+        "cost": 14.50,
+        "description": "The Hoya, or Wax Plant, has thick, waxy leaves and occasional star-shaped flowers. It requires indirect light and moderate watering to thrive."
+    },
+    {
+        "name": "Fuchsia",
+        "cost": 8.99,
+        "description": "Fuchsia plants have vibrant, drooping flowers that add color to indoor or outdoor gardens. They prefer partial shade and regular watering."
+    },
+    {
+        "name": "Chamomile",
+        "cost": 6.99,
+        "description": "Chamomile is a calming herb with daisy-like flowers. It does well in bright light and moderate watering, often used to make soothing teas."
+    }
+]

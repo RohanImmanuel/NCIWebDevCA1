@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <title>Contact | TheGardenShop</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" >
+        <link rel="stylesheet" href="css/style.css" >
+    </head>
+    <body>
+        <header class="py-lg-3">
+            <nav class="navbar navbar-expand-lg fs-4">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/GardenShopLogo.png" alt="TheGardenShop.ie" height="80" >
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="plants.html">Plants</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="display-1">Contact Us</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-lg-12 py-5 pb-lg-0">
+                    <form id="contact-from" onsubmit="formSubmit()">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="name"
+                                    placeholder="Enter your name"
+                                    required >
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    placeholder="Enter your email"
+                                    required >
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input
+                                    type="tel"
+                                    class="form-control"
+                                    id="phone"
+                                    placeholder="Enter your phone number" >
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <label class="form-label">Preferred Contact Method</label>
+                                <div class="d-flex justify-content-start gap-3">
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            name="contactMethod"
+                                            id="contactEmail"
+                                            value="email"
+                                            checked >
+                                        <label class="form-check-label" for="contactEmail"> Email </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="radio"
+                                            name="contactMethod"
+                                            id="contactPhone"
+                                            value="phone" >
+                                        <label class="form-check-label" for="contactPhone"> Phone </label>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <label for="inquiryType" class="form-label">Inquiry Type</label>
+                                <select class="form-select" id="inquiryType" required>
+                                    <option selected disabled>Select an option</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="order">Order Inquiry</option>
+                                    <option value="product">Product Information</option>
+                                    <option value="support">Support</option>
+                                </select>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <label for="fileUpload" class="form-label">Upload a File (Optional)</label>
+                                <input class="form-control" type="file" id="fileUpload" >
+                            </div>
+                            
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="subscribe" >
+                                    <label class="form-check-label" for="subscribe">Subscribe to our monthly newsletter</label>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea
+                                    class="form-control"
+                                    id="message"
+                                    rows="4"
+                                    placeholder="Write your message here"
+                                    required></textarea>
+                            </div>
+                            
+                            <div class="col-6 d-grid">
+                                <button type="submit" class="btn btn-success btn-lg mt-3">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                                <small class="text-muted mt-2"><b>Note:</b> From validation is triggered on submit</small>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <svg
+            class="editorial"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28 "
+            preserveAspectRatio="none">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" >
+            </defs>
+            <g class="parallax1">
+                <use xlink:href="#gentle-wave" x="50" y="3" fill="#4B2E02" >
+            </g>
+            <g class="parallax2">
+                <use xlink:href="#gentle-wave" x="50" y="0" fill="#33A629" >
+            </g>
+            <g class="parallax3">
+                <use xlink:href="#gentle-wave" x="50" y="9" fill="#005B03" >
+            </g>
+            <g class="parallax4">
+                <use xlink:href="#gentle-wave" x="50" y="6" fill="#007404" >
+            </g>
+        </svg>
+        <div class="testimonials alt-bg py-5">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="display-2 mb-5 text-center">What Our Customers Say</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card h-100 text-center shadow-sm">
+                            <div class="card-body">
+                                <p class="card-text">"The Garden Shop has transformed my backyard! The plants are top quality, and the staff was so helpful in guiding my choices."</p>
+                                <div class="mt-3">
+                                    <h5 class="card-title">Jane Doe</h5>
+                                    <p class="text-muted">Garden Enthusiast</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card h-100 text-center shadow-sm">
+                            <div class="card-body">
+                                <p class="card-text">"I am impressed with the variety and quality of plants here. My home is now filled
+                                    with greenery, thanks to their great selection!"</p>
+                                <div class="mt-3">
+                                    <h5 class="card-title">John Smith</h5>
+                                    <p class="text-muted">Home Gardener</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card h-100 text-center shadow-sm">
+                            <div class="card-body">
+                                <p class="card-text">"I found everything I needed to start my garden. The staff's advice on plant care was invaluable. Highly recommend!"</p>
+                                <div class="mt-3">
+                                    <h5 class="card-title">Sarah Brown</h5>
+                                    <p class="text-muted">Beginner Gardener</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-x-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-pinterest"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-reddit-alien"></i>
+            <i class="fab fa-whatsapp"></i>
+
+            <div class="copyright">&copy; 2024 TheGardenShop.ie</div>
+        </footer>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/just-validate.production.min.js"></script>
+        <script src="js/contact.js"></script>
+    </body>
+</html>
