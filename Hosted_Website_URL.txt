@@ -1,0 +1,5 @@
+avoids CORS issues:
+
+https://rohanimmanuel.com/NCIWebDevCA1/
+
+repo: https://github.com/RohanImmanuel/NCIWebDevCA1
